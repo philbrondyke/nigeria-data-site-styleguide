@@ -83,19 +83,19 @@ header {
 
 .cd-download {
   /* download button top-right visible on big devices */
-  background-color: #323234;
+  background-color: #ffe00e;
 }
 .no-touch .cd-download:hover {
-  background-color: #3f3f41;
+  background-color: #81d2ff;
 }
 .cd-download span {
   /* tooltip */
-  background: #5f8ee4;
+  background: #07a658;
   color: #ffffff;
 }
 .cd-download span::before {
   /* right arrow color */
-  border-color: #5f8ee4;
+  border-color: #07a658;
 }
 
 /* --------------------------------
@@ -213,17 +213,38 @@ xButtons
   border-radius: .25em;
   font-size: 1.4rem;
   font-family: "Poppins", sans-serif;
+  text-transform: uppercase;
   color: #ffffff;
   padding: .6em 2.2em;
   cursor: pointer;
-  background: #5f8ee4;
+  background: #0e677f;
 }
 .btn:focus {
   outline: none;
 }
 .no-touch .btn:hover {
-  background: #759de8;
+  background: #11809E;
 }
+
+.btn-dark {
+  border: none;
+  box-shadow: none;
+  border-radius: .25em;
+  font-size: 1.6rem;
+  font-family: "Poppins", sans-serif;
+  text-transform: uppercase;
+  color: #0e677f;
+  padding: .6em 2.2em;
+  cursor: pointer;
+  background: #ffe00e;
+}
+.btn-dark:focus {
+  outline: none;
+}
+.no-touch .btn-dark:hover {
+  background: #FFEF26;
+}
+
 .btn.btn-success {
   background: #6fce72;
 }
@@ -237,14 +258,25 @@ xButtons
   background: #e87a75;
 }
 .btn.btn-outline {
-  color: #5f8ee4;
+  color: #0e677f;
   background: transparent;
-  box-shadow: inset 0 0 0 1px #5f8ee4;
+  box-shadow: inset 0 0 0 1px #0e677f;
 }
 .no-touch .btn.btn-outline:hover {
   color: #ffffff;
-  background: #5f8ee4;
+  background: #11809E;
 }
+
+.btn.btn-outline-dark {
+  color: #ffe00e;
+  background: transparent;
+  box-shadow: inset 0 0 0 1px #ffe00e;
+}
+.no-touch .btn.btn-outline-dark:hover {
+  color: #ffffff;
+  background: #11809E;
+}
+
 @media only screen and (min-width: 768px) {
   .btn {
     font-size: 1.6rem;

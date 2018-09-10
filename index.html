@@ -6,7 +6,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
 	<link href='http://fonts.googleapis.com/css?family=Poppins:800,500,300|Libre+Franklin:400' rel='stylesheet' type='text/css'>
-
+	<link rel=icon href=assets/favicon.png>
 	<link rel="stylesheet" href="css/reset.css"> <!-- CSS reset -->
 	<link rel="stylesheet" href="css/style-guide.css"> <!-- Resource style -->
 	<script src="js/modernizr.js"></script> <!-- Modernizr -->
@@ -24,7 +24,6 @@
 				<li><a href="#typography">Typography</a></li>
 				<li><a href="#buttons">Buttons</a></li>
 				<li><a href="#icons">Icons</a></li>
-				<li><a href="#form">Form</a></li>
 			</ul> <!-- cd-main-nav -->
 		</nav>
 
@@ -58,12 +57,7 @@
 				<li class="cd-box"><img src="assets/branding/logo-option-08.png" alt="Logo version 2"></li>
 			</ul>
 
-			<ul>
-				<li><img src="assets/branding/touch-icon-1.jpg" alt="Touch Icon 1"></li>
-				<li><img src="assets/branding/touch-icon-2.jpg" alt="Touch Icon 2"></li>
-				<li><img src="assets/branding/favicon-1.jpg" alt="Favicon 1"></li>
-				<li><img src="assets/branding/favicon-2.jpg" alt="Favicon 2"></li>
-			</ul>
+
 		</section>
 
 		<section id="colors" class="cd-colors">
@@ -118,7 +112,7 @@
 
 			<div class="cd-box">
 				<p><span style="color:#0e677f;">Links</span></h1>
-				<p>Examples of paragraph <a href="#">text links</a>. Inheirit paragraph style for text but add the following:</p>
+				<p>Examples of paragraph <a href="#">text links</a>. Use paragraph style for text but add the following:</p>
 				<br>
 						<pre>p a {
 							<br>text-decoration:none;
@@ -129,6 +123,7 @@
 						<br>a:hover {
 						  <br>background: #9AE1FF;
 						<br>}</pre>
+						<p>Note that the link border color could change depending on what <a href="#branding">branding/logo</a> is chosen.</p>
 			</div>
 
 		</section>
@@ -137,10 +132,15 @@
 			<h2>Buttons</h2>
 
 			<div class="cd-box">
-				<button class="btn">Normal</button>
-				<button class="btn btn-success">Success</button>
-				<button class="btn btn-alert">Alert</button>
+				<h3 style="line-height: 2em;">Buttons on light background.</h3>
+				<button class="btn">Filled</button>
 				<button class="btn btn-outline">Outline</button>
+			</div>
+
+			<div class="cd-box" style="background:#0e677f;">
+				<h3 style="line-height: 2em; color: #fcfcfc;">Buttons on dark background.</h3>
+				<button class="btn-dark">Filled</button>
+				<button class="btn btn-outline-dark">Outline</button>
 			</div>
 
 		</section>
@@ -151,16 +151,16 @@
 			<ul class="cd-box">
 				<li class="cd-icon-1"></li>
 				<li class="cd-icon-2"></li>
-				<li class="cd-icon-3"></li>
+				<!-- <li class="cd-icon-3"></li>
 				<li class="cd-icon-4"></li>
 				<li class="cd-icon-5"></li>
 				<li class="cd-icon-6"></li>
 				<li class="cd-icon-7"></li>
-				<li class="cd-icon-8"></li>
+				<li class="cd-icon-8"></li>-->
 			</ul>
 		</section>
 
-		<section id="form" class="cd-form">
+		<!--  <section id="form" class="cd-form">
 			<h2>Form</h2>
 
 			<div class="cd-box">
@@ -192,7 +192,7 @@
 				      	</div>
 					</fieldset>
 				</form>
-			</div>
+			</div>-->
 		</section>
 	</main>
 <script src="js/jquery-2.1.1.js"></script>
